@@ -7,14 +7,18 @@
 /* fine generale */
 
 /* controllareeeeeee */
-.text {
+/* .text {
   text-align: center;
-}
+
+} */
 
 [class*="col-"] {
   min-height: 200px;
   background-color: #ffc0cb;
   border: solid 1px #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .pezzi-finali {
