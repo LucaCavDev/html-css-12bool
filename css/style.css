@@ -1,19 +1,27 @@
-/* general */
-
+/* generale */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+/* fine generale */
 
+/* controllareeeeeee */
 .text {
   text-align: center;
 }
 
-
-/* debug */
 [class*="col-"] {
   min-height: 200px;
-  background-color: lightpink;
-  border: solid 1px black;
+  background-color: #ffc0cb;
+  border: solid 1px #000000;
+}
+
+.pezzi-finali {
+  background-color: #f07f80;
+  border: solid 1px white;
+}
+
+.bordino {
+  padding: 5px;
 }
