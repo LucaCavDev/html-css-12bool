@@ -1,0 +1,19 @@
+/* general */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.text {
+  text-align: center;
+}
+
+
+/* debug */
+[class*="col-"] {
+  min-height: 200px;
+  background-color: lightpink;
+  border: solid 1px black;
+}
